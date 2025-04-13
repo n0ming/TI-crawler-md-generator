@@ -375,6 +375,6 @@ if __name__ == "__main__":
     main()
     try:
        print("두번째 py 실행 중")
-       subprocess.run(['python', 'csv_to_my.py'])  # '두번째파일.py'는 두 번째 스크립트 파일의 이름입니다.
+       subprocess.run(['python', 'ti_report_maker.py'])  # '두번째파일.py'는 두 번째 스크립트 파일의 이름입니다.
     except FileNotFoundError:
         print("두 번째 스크립트 파일을 찾을 수 없습니다.")
